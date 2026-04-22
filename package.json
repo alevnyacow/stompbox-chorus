@@ -1,6 +1,6 @@
 {
   "name": "@stompbox/chorus",
-  "description": "Framework-agnostic plug-and-play repositories with in-memory implementations.",
+  "description": "Framework-agnostic plug-and-play repositories (in-memory and Prisma support out of the box).",
   "version": "1.2.0",
   "license": "MIT",
   "type": "module",

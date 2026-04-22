@@ -1,6 +1,6 @@
 # Chorus
 
-Framework-agnostic plug-and-play repositories with in-memory implementations.
+Framework-agnostic plug-and-play repositories with in-memory implementations and scaffolder for Prisma boilerplate.
 
 ## Example
 
@@ -50,4 +50,17 @@ await usersInMemory.deleteOne(
     // filter
     { id: newUser.id }
 )
+```
+
+## Scaffolding
+
+```bash
+npx chorus init
+
+# configure created file `stompbox.config.json` 
+# to modify naming and paths using for scaffolding if needed
+
+npx chorus scaffold user
+
+# in-memory and prisma user repos are scaffolded
 ```
