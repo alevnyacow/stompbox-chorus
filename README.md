@@ -1,23 +1,53 @@
-# Rslib project
+# Chorus
 
-## Setup
+Framework-agnostic plug-and-play repositories with in-memory implementations.
 
-Install the dependencies:
+## Example
 
-```bash
-npm install
-```
+```ts
+import { EntityChorus, ChorusInMemory } from '@stompbox/chorus'
 
-## Get started
+type User = { id: string, name: string }
 
-Build the library:
+type UserRepository = EntityChorus<User>
 
-```bash
-npm run build
-```
+class UserInMemoryRepository extends ChorusInMemory<
+    UserRepository
+> {
+    constructor() {
+        // can be configured via optional config in constructor
+        super()
+    }
+}
 
-Build the library in watch mode:
+class UserPrismaRepository implements UserRepository {
+    // ... implementation
+}
 
-```bash
-npm run dev
+const usersInMemory = new UserInMemoryRepository()
+
+const newUser = await usersInMemory.create(
+    // creation payload
+    { name: 'driver 8' }
+)
+const driver8 = await usersInMemory.details(
+    // specific search filter
+    { id: newUser.id }
+)
+const users = await usersInMemory.list(
+    // list seach filter
+    { name: 'driver' }, 
+    // optional pagination
+    { zeroBasedPageIndex: 0, pageSize: 10 }
+)
+await usersInMemory.updateOne(
+    // filter
+    { id: newUser.id },
+    // payload
+    { name: 'take a break' }
+)
+await usersInMemory.deleteOne(
+    // filter
+    { id: newUser.id }
+)
 ```
