@@ -1,5 +1,5 @@
 import { beforeEach, expect, test } from '@rstest/core';
-import { InMemoryRepository, EntityChorusRepository } from '../src/index';
+import { ChorusInMemory, EntityChorus } from '../src/index';
 
 type FunnyEntity = {
   id: number,
@@ -13,9 +13,9 @@ type FunnyEntity = {
   }
 }
 
-type FunnyEntityRepository = EntityChorusRepository<FunnyEntity, 'additionalField' | 'bro'>
+type FunnyEntityRepository = EntityChorus<FunnyEntity, 'additionalField' | 'bro'>
 
-class FunnyEntityInMemoryRepository extends InMemoryRepository<FunnyEntityRepository> {
+class FunnyEntityInMemoryRepository extends ChorusInMemory<FunnyEntityRepository> {
   constructor() {
     super({
       actionsLogic: {
