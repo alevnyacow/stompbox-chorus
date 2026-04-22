@@ -1,6 +1,7 @@
 {
   "name": "@stompbox/chorus",
   "description": "Framework-agnostic plug-and-play repositories (in-memory and Prisma support out of the box).",
+  "keywords": ["repository", "data layer", "data access layer", "DAL", "in-memory", "scaffolding"],
   "version": "1.2.1",
   "license": "MIT",
   "type": "module",
