@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/alevnyacow/stompbox-chorus/compare/v1.2.0...v1.2.1) (2026-04-22)
+
+
+### Bug Fixes
+
+* added scaffolding in readme ([43e2c4f](https://github.com/alevnyacow/stompbox-chorus/commit/43e2c4faf7eae41f1b02398fc9a24c35d65b227e))
+
 # [1.2.0](https://github.com/alevnyacow/stompbox-chorus/compare/v1.1.2...v1.2.0) (2026-04-22)
 
 
