@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/alevnyacow/stompbox-chorus/compare/v1.0.0...v1.1.0) (2026-04-22)
+
+
+### Features
+
+* renaming ([238623f](https://github.com/alevnyacow/stompbox-chorus/commit/238623fc0ec6b0b5e5a89694a12bf22f490d8b44))
+
 # 1.0.0 (2026-04-22)
 
 
