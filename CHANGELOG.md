@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/alevnyacow/stompbox-chorus/compare/v1.1.2...v1.2.0) (2026-04-22)
+
+
+### Features
+
+* added scaffolder for repo implementations ([f4833b5](https://github.com/alevnyacow/stompbox-chorus/commit/f4833b5bce8e9e3cfe851bee1de7656287314384))
+
 ## [1.1.2](https://github.com/alevnyacow/stompbox-chorus/compare/v1.1.1...v1.1.2) (2026-04-22)
 
 
