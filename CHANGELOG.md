@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/alevnyacow/stompbox-chorus/compare/v1.2.1...v1.2.2) (2026-04-22)
+
+
+### Bug Fixes
+
+* added keywords ([119c633](https://github.com/alevnyacow/stompbox-chorus/commit/119c6333437dbd33516a32ca41754fe2fc08da79))
+
 ## [1.2.1](https://github.com/alevnyacow/stompbox-chorus/compare/v1.2.0...v1.2.1) (2026-04-22)
 
 
