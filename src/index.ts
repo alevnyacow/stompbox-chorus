@@ -1,5 +1,7 @@
 import { ChorusSchemas, ChorusRepository, SchemaFromRepository } from "./types";
 
+export type { SchemaFromRepository } from './types'
+
 type Primitive = string | number | boolean | bigint | symbol | null | undefined;
 type NonPrimitiveKeys<T> = {
   [K in keyof T]: T[K] extends Primitive ? never : K
