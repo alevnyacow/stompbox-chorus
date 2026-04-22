@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/alevnyacow/stompbox-chorus/compare/v1.1.0...v1.1.1) (2026-04-22)
+
+
+### Bug Fixes
+
+* added license ([e91f90b](https://github.com/alevnyacow/stompbox-chorus/commit/e91f90bacb33aa197ba8b61fd6afebbb370a0f58))
+
 # [1.1.0](https://github.com/alevnyacow/stompbox-chorus/compare/v1.0.0...v1.1.0) (2026-04-22)
 
 
