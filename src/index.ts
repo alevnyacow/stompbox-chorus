@@ -7,7 +7,7 @@ type NonPrimitiveKeys<T> = {
   [K in keyof T]: T[K] extends Primitive ? never : K
 }[keyof T];
 
-export type EntityChorus<
+export type EntityRepository<
     EntityModel extends Record<UniqueFields | GeneratedFields | ImmutableFields, unknown>,
     DetailsFields extends keyof EntityModel = NonPrimitiveKeys<EntityModel>,
     UniqueFields extends string = 'id',
@@ -24,7 +24,7 @@ export type EntityChorus<
     >
 >
 
-export type ValueObjectChorus<
+export type ValueObjectRepository<
     ValueObjectModel
 > = ChorusRepository<
     ChorusSchemas<
@@ -37,7 +37,7 @@ export type ValueObjectChorus<
     >
 >
 
-export type CustomChorus<    
+export type CustomRepository<    
     ListModel,
     DetailsModel,
     ListFilter,
@@ -55,7 +55,7 @@ export type CustomChorus<
     >
 >
 
-export class ChorusInMemory<T extends ChorusRepository<any>> {
+export class InMemoryRepository<T extends ChorusRepository<any>> {
     protected data: Array<SchemaFromRepository<T>['models']['details']>
 
     constructor(

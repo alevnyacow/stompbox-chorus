@@ -5,13 +5,13 @@ Framework-agnostic plug-and-play repositories with in-memory implementations and
 ## Example
 
 ```ts
-import { EntityChorus, ChorusInMemory } from '@stompbox/chorus'
+import { EntityRepository, InMemoryRepository } from '@stompbox/chorus'
 
 type User = { id: string, name: string }
 
-type UserRepository = EntityChorus<User>
+type UserRepository = EntityRepository<User>
 
-class UserInMemoryRepository extends ChorusInMemory<
+class UserInMemoryRepository extends InMemoryRepository<
     UserRepository
 > {
     constructor() {
