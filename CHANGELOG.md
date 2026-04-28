@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/alevnyacow/stompbox-chorus/compare/v1.2.3...v2.0.0) (2026-04-28)
+
+
+### Features
+
+* new API ([4727e3d](https://github.com/alevnyacow/stompbox-chorus/commit/4727e3ddb91f062427f146b5805aab7f31ab4bb7))
+
+
+### BREAKING CHANGES
+
+* new contracts
+
 ## [1.2.3](https://github.com/alevnyacow/stompbox-chorus/compare/v1.2.2...v1.2.3) (2026-04-28)
 
 
