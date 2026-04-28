@@ -1,6 +1,6 @@
 {
   "name": "@stompbox/chorus",
-  "description": "Framework-agnostic plug-and-play repositories (in-memory and Prisma support out of the box).",
+  "description": "Framework-agnostic repositories with in-memory implementations.",
   "keywords": [
     "repository",
     "data layer",
