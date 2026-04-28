@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/alevnyacow/stompbox-chorus/compare/v1.2.2...v1.2.3) (2026-04-28)
+
+
+### Bug Fixes
+
+* default id as string ([c18ba4b](https://github.com/alevnyacow/stompbox-chorus/commit/c18ba4bc3dcf78fde889e41fd16e1b0dff35253a))
+
 ## [1.2.2](https://github.com/alevnyacow/stompbox-chorus/compare/v1.2.1...v1.2.2) (2026-04-22)
 
 
