@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/alevnyacow/stompbox-chorus/compare/v2.0.0...v2.0.1) (2026-04-28)
+
+
+### Bug Fixes
+
+* simplified description and readme ([030cd50](https://github.com/alevnyacow/stompbox-chorus/commit/030cd50b174bcbb1a0e058564ce8fc35c4dd4368))
+
 # [2.0.0](https://github.com/alevnyacow/stompbox-chorus/compare/v1.2.3...v2.0.0) (2026-04-28)
 
 
