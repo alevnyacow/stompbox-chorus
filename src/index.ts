@@ -167,7 +167,7 @@ export class ChorusInMemory<T extends ChorusRepository<any>> {
     }
     
     create: T['create'] = async (payload) => {
-        const newItem = this.config?.actionsLogic?.create ? this.config?.actionsLogic?.create(payload) : {  ...payload, id: Math.random() }
+        const newItem = this.config?.actionsLogic?.create ? this.config?.actionsLogic?.create(payload) : {  ...payload, id: Math.random().toString() }
         this.data.push(newItem)
         return newItem
     }
